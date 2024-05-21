@@ -1,4 +1,6 @@
-# AIGC image quality assessment via image-prompt correspondence
+## AIGC image quality assessment via image-prompt correspondence
+
+The official repo of AIGC image quality assessment via image-prompt correspondence. (CVPRW2024, the first place in the image track of the NTIRE 2024 Quality Assessment for AI-Generated Content challenge )
 
 ## Requirement
 
@@ -14,28 +16,30 @@ pip install git+https://github.com/openai/CLIP.git
 
 ## Data Preparation
 
-Download the competition test dataset from the specified website and unzip it into the "./data/AIGCQA-30K-Image/test" directory.
+Download [AGIQA-1K]([lcysyzxdxc/AGIQA-1k-Database: AGIQA-1k-Database for AI Generated Content Image Quality Assessment (github.com)](https://github.com/lcysyzxdxc/AGIQA-1k-Database)), [AGIQA-3K](https://github.com/lcysyzxdxc/AGIQA-3k-Database), [AIGCIQA2023]([wangjiarui153/AIGCIQA2023 (github.com)](https://github.com/wangjiarui153/AIGCIQA2023)) and [AIGCQA-30K-Image]([AIGCQA-30K-Image · 数据集 (modelscope.cn)](https://www.modelscope.cn/datasets/lcysyzxdxc/AIGCQA-30K-Image/summary)) datasets and unzip them into the "<u>./data</u>" directory.
 
-## Trained Weights
+## Training and Testing
 
-## Evaluation on AIGCQA-30k-Image test-set
-
-After preparing the code environment and downloading the data and model weights, run the following code to obtain the output.txt file.
+After preparing the code environment and downloading the data, run the following codes to train and test model.
 
 ```bash
-python AIGC_DB_prompt_final.py
+#AIGCQA-30K-Image
+python train_aigcqa30k.py
+#AGIQA-1K
+python train_aigc_agiqa1k.py
+#AGIQA-3K
+python train_aigc_agiqa3k.py
+#AIGCIQA2023
+python train_aigc_aigciqa2023.py
 ```
 
-## Citation
-
-This code is built on [LIQE](https://github.com/zwx8981/LIQE). We thank the authors for sharing their codes. 
+For AIGCQA-30-Image dataset, run the following codes to get val and test output.
 
 ```bash
-@inproceedings{zhang2023liqe,  
-  title={Blind Image Quality Assessment via Vision-Language Correspondence: A Multitask Learning Perspective},  
-  author={Zhang, Weixia and Zhai, Guangtao and Wei, Ying and Yang, Xiaokang and Ma, Kede},  
-  booktitle={IEEE Conference on Computer Vision and Pattern Recognition},  
-  pages={14071--14081},
-  year={2023}
-}
+AIGC_DB_AIGCQA30K_VAL.py
+AIGC_DB_AIGCQA30K_TEST.py
 ```
+
+## Acknowledgements
+
+This code is built on [LIQE]([zwx8981/LIQE: [CVPR2023\] Blind Image Quality Assessment via Vision-Language Correspondence: A Multitask Learning Perspective (github.com)](https://github.com/zwx8981/LIQE)). We thank the authors for sharing their codes.
