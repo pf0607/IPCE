@@ -16,7 +16,7 @@ pip install git+https://github.com/openai/CLIP.git
 
 ## Data Preparation
 
-Download [AGIQA-1K]([lcysyzxdxc/AGIQA-1k-Database: AGIQA-1k-Database for AI Generated Content Image Quality Assessment (github.com)](https://github.com/lcysyzxdxc/AGIQA-1k-Database)), [AGIQA-3K](https://github.com/lcysyzxdxc/AGIQA-3k-Database), [AIGCIQA2023]([wangjiarui153/AIGCIQA2023 (github.com)](https://github.com/wangjiarui153/AIGCIQA2023)) and [AIGCQA-30K-Image]([AIGCQA-30K-Image · 数据集 (modelscope.cn)](https://www.modelscope.cn/datasets/lcysyzxdxc/AIGCQA-30K-Image/summary)) datasets and unzip them into the "<u>./data</u>" directory.
+Download [AGIQA-1K]([lcysyzxdxc/AGIQA-1k-Database: AGIQA-1k-Database for AI Generated Content Image Quality Assessment (github.com)](https://github.com/lcysyzxdxc/AGIQA-1k-Database)), [AGIQA-3K](https://github.com/lcysyzxdxc/AGIQA-3k-Database), [AIGCIQA2023](https://github.com/wangjiarui153/AIGCIQA2023) and [AIGCQA-30K-Image]([AIGCQA-30K-Image · 数据集 (modelscope.cn)](https://www.modelscope.cn/datasets/lcysyzxdxc/AIGCQA-30K-Image/summary)) datasets and unzip them into the "<u>./data</u>" directory.
 
 ## Training and Testing
 
