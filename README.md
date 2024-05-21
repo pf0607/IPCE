@@ -38,3 +38,6 @@ For AIGCQA-30-Image dataset, run the following codes to get val and test output.
 AIGC_DB_AIGCQA30K_VAL.py
 AIGC_DB_AIGCQA30K_TEST.py
 ```
+## Citation
+
+If you find our work useful in your research, please consider citing our paper:
