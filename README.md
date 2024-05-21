@@ -1,5 +1,5 @@
-## AIGC image quality assessment via image-prompt correspondence
-The official repo of AIGC image quality assessment via image-prompt correspondence. (CVPRW2024, the first place in the image track of the NTIRE 2024 Quality Assessment for AI-Generated Content challenge )
+## AIGC Image Quality Assessment via Image-Prompt Correspondence
+The official repo of AIGC Image Quality Assessment via Image-Prompt Correspondence. (CVPRW2024, the first place in the image track of the NTIRE 2024 Quality Assessment for AI-Generated Content challenge )
 
 ## Requirement
 
