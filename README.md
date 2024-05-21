@@ -38,7 +38,3 @@ For AIGCQA-30-Image dataset, run the following codes to get val and test output.
 AIGC_DB_AIGCQA30K_VAL.py
 AIGC_DB_AIGCQA30K_TEST.py
 ```
-
-## Acknowledgements
-
-This code is built on [LIQE](https://github.com/zwx8981/LIQE). We thank the authors for sharing their codes.
