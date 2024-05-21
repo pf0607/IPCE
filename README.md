@@ -1,5 +1,4 @@
 ## AIGC image quality assessment via image-prompt correspondence
-https://github.com/pf0607/IPCE/blob/main/README.md
 The official repo of AIGC image quality assessment via image-prompt correspondence. (CVPRW2024, the first place in the image track of the NTIRE 2024 Quality Assessment for AI-Generated Content challenge )
 
 ## Requirement
