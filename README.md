@@ -1,4 +1,4 @@
-## AIGC Image Quality Assessment via Image-Prompt Correspondence (IPCE, Image-Prompt Correspondence Estimator)
+## Image-Prompt Correspondence Estimator (IPCE)
 The official repo of AIGC Image Quality Assessment via Image-Prompt Correspondence. (CVPRW2024, the first place in the image track of the NTIRE 2024 Quality Assessment for AI-Generated Content challenge)
 
 ## Requirement
