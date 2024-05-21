@@ -41,4 +41,4 @@ AIGC_DB_AIGCQA30K_TEST.py
 
 ## Acknowledgements
 
-This code is built on [LIQE]([zwx8981/LIQE: [CVPR2023\] Blind Image Quality Assessment via Vision-Language Correspondence: A Multitask Learning Perspective (github.com)](https://github.com/zwx8981/LIQE)). We thank the authors for sharing their codes.
+This code is built on [LIQE](https://github.com/zwx8981/LIQE). We thank the authors for sharing their codes.
