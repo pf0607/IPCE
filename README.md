@@ -41,3 +41,13 @@ AIGC_DB_AIGCQA30K_TEST.py
 ## Citation
 
 If you find our work useful in your research, please consider citing our paper:
+```bash
+@InProceedings{Peng_2024_CVPR,
+    author    = {Peng, Fei and Fu, Huiyuan and Ming, Anlong and Wang, Chuanming and Ma, Huadong and He, Shuai and Dou, Zifei and Chen, Shu},
+    title     = {AIGC Image Quality Assessment via Image-Prompt Correspondence},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2024},
+    pages     = {6432-6441}
+}
+```
